@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Research</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="./css/all.css">
+
+
+    <!-- --------- Owl-Carousel ------------------->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- ------------ AOS Library ------------------------- -->
+    <link rel="stylesheet" href="./css/aos.css">
+
+    <!-- Custom Style   -->
+    <link rel="stylesheet" href="./css/Style2.css">
+
+</head>
+
+<body>
+
+    <!-- ----------------------------  Navigation Bar---------------------------------------------- -->
+
+    <nav class="nav">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="Index.html" class="text-gray" title="Kaushal">Kaushal</a>
+            </div>
+            <div class="toggle-collapse">
+                <div class="toggle-icons">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div>
+                <ul class="nav-items">
+                    <li class="nav-link">
+                        <a href="home.html" title="Home">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="CV.html" title="CV">CV</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="Blog.html" title="Blog">Blog</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="Research.html" title="Research">Research</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="Contact.html" title="Contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="time">
+            <div id ="Clock"></div>
+          <!-- ---------------------------- inline java script---------------------------------------------- -->
+
+    <script>
+    function showTime(){
+      var date = new Date();
+      var h = date.getHours();
+      var m = date.getMinutes();
+      var s = date.getSeconds();
+      var session = "AM";
+       
+       if(h == 0){
+         h = 12;
+       }
+       
+       if(h > 12){
+         h = h-12;
+       session = "PM";
+    }
+    h =(h < 10) ? "0" + h : h;
+    m =(m < 10) ? "0" + m : m;
+    s =(s < 10) ? "0" + s : s;
+    var time ="Time"+ " "+ h + ":" + m + ":" + s + " " + session;
+        document.getElementById("Clock").innerText = time;
+        document.getElementById("Clock").innerContent = time;
+        setTimeout( showTime,1000);
+    }
+    showTime()
+    </script>
+            </div>
+            <div class="social text-gray">
+                <a href="http://www.facebook.com" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://www.instagram.com" title="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.twitter.com" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.youtube.com" title="Youtube"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ------------x---------------  Navigation --------------------------x--------------------->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
+    <main>
+
+        <!------------------------ Research Title ---------------------->
+
+        <section class="Research-title">
+            <div class="site-background" data-aos="fade-in" data-aos-delay="200">
+                <h1>Research</h1>
+                </div>
+        </section>
+
+        <!------------x----------- Research Title ----------x----------->
+
+        
+
+        <!-- ---------------------- Site Content -------------------------->
+
+        <section class="container">
+            <div class="site-content">
+                <div class="posts">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog1.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                               
+                            </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Affect of technology in students</a>
+                            <p>Content(jhdfvbjhdfsbjdsfvbjdhfbsdhb jfsc)
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Title</a>
+                            <p>Blog content(sdhbcjhvbdjhsdbvjhbjdsfbvjdfvbjhsvbdkhdbv)
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <hr>
+                       <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#">Title</a>
+                            <p>Blog content(sdhbcjhvbdjhsdbvjhbjdsfbvjdfvbjhsvbdkhdbv)
+                            </p>
+                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                   
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="post-image">
+                            <div>
+                                <img src="./assets/Blog-post/blog4.png" class="img" alt="blog1">
+                            </div>
+                            <div class="post-info flex-row">
+                                <span><i class="fas fa-user text-gray"></i>&nbsp;&nbsp;Admin</span>
+                                </div>
+                        </div>
+                        <div class="post-title">
+                            <a href="#"><p>Blog content (sbdvjbsdjvhbjhbsdjvbhvjhbxmhvb)
+                                </p></a>
+                                <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </div>
+                    <div class="pagination flex-row">
+                        <a href="#"><i class="fas fa-chevron-left"></i></a>
+                        <a href="#" class="pages">1</a>
+                        <a href="#" class="pages">2</a>
+                        <a href="#" class="pages">3</a>
+                        <a href="#"><i class="fas fa-chevron-right"></i></a>
+                    </div>
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
+                        <h2>Content</h2>
+                        <ul class="category-list">
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="100">
+                                <a href="CV.html">CV</a>
+                                </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="200">
+                                <a href="Blog.html">Blog</a>
+                                </li>
+                            <li class="list-items" data-aos="fade-left" data-aos-delay="300">
+                                <a href="Research.html">Research</a>
+                               </li>
+                           <li class="list-items" data-aos="fade-left" data-aos-delay="500">
+                                <a href="Contact.html">Contact</a>
+                              </li>
+                        </ul>
+                    </div>
+                    <div class="popular-post">
+                        <h2>Popular Post</h2>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="200">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/5.jfif" alt="post-1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2020</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#"> Places to visit in Nepal </a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/1.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2020</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Visit Nepal 2020</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/1.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2020</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Visit Nepal 2020</a>
+                            </div>
+                        </div>
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                            <div class="post-image">
+                                <div>
+                                    <img src="./assets/Blog-post/1.jpg" class="img" alt="blog1">
+                                </div>
+                                <div class="post-info flex-row">
+                                    <span><i class="fas fa-calendar-alt text-gray"></i>&nbsp;&nbsp;January 14,
+                                        2020</span>
+                                    <span>2 Commets</span>
+                                </div>
+                            </div>
+                            <div class="post-title">
+                                <a href="#">Visit Nepal 2020</a>
+                            </div>
+                        </div>
+                       
+                       
+                       
+                    </div>
+                    <div class="newsletter" data-aos="fade-up" data-aos-delay="300">
+                        <h2>Get notified</h2>
+                        <div class="form-element">
+                            <input type="text" class="input-element" placeholder="Email">
+                            <button class="btn form-btn">Subscribe</button>
+                        </div>
+                    </div>
+                    <div class="popular-tags">
+                        <h2>Popular Tags</h2>
+                        <div class="tags flex-row">
+                            <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="200">technology</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="300">travel</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="400">illustration</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="500">design</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="600">lifestyle</span>
+                            <span class="tag" data-aos="flip-up" data-aos-delay="700">project</span>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+            </div>
+        </section>
+
+        <!-- -----------x---------- Site Content -------------x------------>
+
+    </main>
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="about-us" data-aos="fade-right" data-aos-delay="200">
+                <h2>About me</h2>
+                <p>Student of Islington college<br>
+                    Kaushal Gurung<br>
+                    London met ID:19031057<br>
+                     Student ID:NP01CP4A190390<br>
+                     Year:2019/20<br>
+                     Semester:Autumn</p>
+            </div>
+            <div class="newsletter" data-aos="fade-right" data-aos-delay="200">
+                <h2>Newsletter</h2>
+                <p>Stay update with my latest</p>
+                <div class="form-element">
+                    <input type="text" placeholder="Email"><span><i class="fas fa-chevron-right"></i></span>
+                </div>
+            </div>
+            <div class="instagram" data-aos="fade-left" data-aos-delay="200">
+                <h2>Instagram</h2>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card3.png" alt="insta1">
+                    <img src="./assets/instagram/thumb-card4.png" alt="insta2">
+                    <img src="./assets/instagram/thumb-card5.png" alt="insta3">
+                </div>
+                <div class="flex-row">
+                    <img src="./assets/instagram/thumb-card6.png" alt="insta4">
+                    <img src="./assets/instagram/thumb-card7.png" alt="insta5">
+                    <img src="./assets/instagram/thumb-card8.png" alt="insta6">
+                </div>
+            </div>
+            <div class="follow" data-aos="fade-left" data-aos-delay="200">
+                <h2>Follow me</h2>
+                <p>Let us be Social media</p>
+                <div>
+                     <a href="http://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                <a href="http://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.youtube.com"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="rights flex-row">
+            <h4 class="text-gray">
+                Copyright ©2020 All rights reserved | Kaushal Gurung
+                <a href="http://www.youtube.com" target="_black">Youtube<i class="fab fa-youtube"></i>
+                    Channel</a>
+            </h4>
+        </div>
+        <div class="move-up">
+            <span><i class="fas fa-arrow-circle-up fa-2x"></i><br>Go to top</span>
+        </div>
+    </footer>
+
+    <!-- -------------x------------- Footer --------------------x------------------- -->
+
+    <!-- Jquery Library file -->
+    <script src="./js/Jquery3.4.1.min.js"></script>
+
+    <!-- --------- Owl-Carousel js ------------------->
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <!-- ------------ AOS js Library  ------------------------- -->
+    <script src="./js/aos.js"></script>
+
+    <!-- Custom Javascript file -->
+    <script src="./js/main.js"></script>
+      </body>
+</html>
